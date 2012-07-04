@@ -57,6 +57,18 @@ Only basic DB support is included.
 
 [dsapi]: https://github.com/technoweenie/instagram_campfire_hook/blob/master/lib/chat_gram/model.rb#L2-3
 
+## Subscriptions
+
+To activate the subscription webhook, run
+
+    curl -F 'client_id=CLIENT-ID' \
+     -F 'client_secret=CLIENT-SECRET' \
+     -F 'object=user' \
+     -F 'aspect=media' \
+     -F 'verify_token=myVerifyToken' \
+     -F 'callback_url=http://site/image' \
+     https://api.instagram.com/v1/subscriptions/
+
 ## TODO
 
 * Document startup env vars better
