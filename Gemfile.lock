@@ -19,6 +19,7 @@ GEM
     multi_json (0.0.5)
     multipart-post (1.1.0)
     mustache (0.99.3)
+    pg (0.14.0)
     rack (1.2.2)
     rack-test (0.5.6)
       rack (>= 1.0)
@@ -38,6 +39,7 @@ DEPENDENCIES
   excon (~> 0.5.8)
   instagram (~> 0.6.1)
   mustache (~> 0.99.3)
+  pg (~> 0.14.0)
   rack-test
   sequel (~> 3.20.0)
   sinatra (~> 1.2.0)

@@ -7,6 +7,7 @@ gem 'instagram', "~> 0.6.1"
 gem 'excon',     '~> 0.5.8'
 gem 'sequel',    '~> 3.20.0'
 gem 'yajl-ruby', '~> 0.8.2'
+gem 'pg',        '~> 0.14.0'
 
 group :development do
   gem 'sqlite3'
